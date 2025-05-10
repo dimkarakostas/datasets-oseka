@@ -7,8 +7,8 @@ import { FooterNav } from "@/components/footer-nav"
 const inter = Inter({ subsets: ["latin", "greek"] })
 
 export const metadata = {
-  title: "Επενδύσεις ΟΣΕΚΑ",
-  description: "Δεδομένα για τις επενδύσεις Ελλήνων σε ΟΣΕΚΑ",
+  title: "Επενδύσεις ΟΣΕΚΑ (UCITS)",
+  description: "Δεδομένα για τις επενδύσεις Ελλήνων σε ΟΣΕΚΑ (UCITS)",
   generator: 'v0.dev'
 }
 
