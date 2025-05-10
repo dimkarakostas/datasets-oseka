@@ -32,8 +32,11 @@ export default function AnnualDashboard() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex h-16 items-center justify-between py-4">
           <h1 className="text-2xl font-bold text-[#2D3748]">Επενδύσεις ΟΣΕΚΑ (UCITS)</h1>
           <div className="flex items-center gap-4">
-            <Button variant="outline" asChild>
+            <Button asChild>
               <Link href="/">Διαχρονική Εξέλιξη</Link>
+            </Button>
+            <Button variant="outline" asChild>
+              <Link href="https://datasets.gr">datasets.gr</Link>
             </Button>
           </div>
         </div>

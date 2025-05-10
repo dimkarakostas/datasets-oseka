@@ -38,6 +38,9 @@ export default function Dashboard() {
             <Button asChild>
               <Link href="/annual">Μηνιαία Ανάλυση</Link>
             </Button>
+            <Button variant="outline" asChild>
+              <Link href="https://datasets.gr">datasets.gr</Link>
+            </Button>
           </div>
         </div>
       </header>
