@@ -46,7 +46,7 @@ export default function Dashboard() {
           <div className="mb-6">
             <h2 className="text-xl font-semibold mb-2">Διαχρονική Εξέλιξη Επενδύσεων</h2>
             <p className="text-muted-foreground">
-              Παρακολουθήστε την εξέλιξη των επενδύσεων σε ΟΣΕΚΑ από το 2019 έως σήμερα
+              Παρακολουθήστε την εξέλιξη των επενδύσεων φορολογικών κατοίκων Ελλάδας σε ΟΣΕΚΑ από το 2019 έως σήμερα
             </p>
           </div>
 

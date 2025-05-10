@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin", "greek"] })
 
 export const metadata = {
   title: "Επενδύσεις ΟΣΕΚΑ (UCITS)",
-  description: "Δεδομένα για τις επενδύσεις Ελλήνων σε ΟΣΕΚΑ (UCITS)",
+  description: "Δεδομένα για τις επενδύσεις φορολογικών κατοίκων Ελλάδας σε ΟΣΕΚΑ (UCITS)",
   generator: 'v0.dev'
 }
 
