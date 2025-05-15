@@ -31,7 +31,7 @@ export function InvestmentTable({ data }: InvestmentTableProps) {
   const [dataType, setDataType] = useState<"stock" | "net_flow">("stock")
 
   // Get all dates and sort them
-  const dates = Object.keys(data.stock).sort()
+  const dates = Object.keys(data.stock).sort().reverse()
 
   // Create a table-friendly data structure
   const tableData = dates.map((date) => {
