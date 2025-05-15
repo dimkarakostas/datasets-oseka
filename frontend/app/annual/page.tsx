@@ -30,7 +30,7 @@ export default function AnnualDashboard() {
     <div className="flex min-h-screen flex-col bg-[#f8f9fa]">
       <header className="sticky top-0 z-10 border-b bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex h-16 items-center justify-between py-4">
-          <h1 className="text-2xl font-bold text-[#2D3748]">Επενδύσεις ΟΣΕΚΑ (UCITS)</h1>
+          <h1 className="text-2xl font-bold text-[#2D3748]">Επενδύσεις ΟΣΕΚΑ</h1>
           <div className="flex items-center gap-4">
             <Button asChild>
               <Link href="/">Διαχρονική Εξέλιξη</Link>
@@ -44,7 +44,7 @@ export default function AnnualDashboard() {
       <main className="flex-1">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-6">
-            <h2 className="text-xl font-semibold mb-4 md:mb-0">Μηνιαία Ανάλυση</h2>
+            <h2 className="text-xl font-semibold mb-4 md:mb-0">Μηνιαία Ανάλυση Επενδύσεων ΟΣΕΚΑ (UCITS)</h2>
             <div className="flex items-center gap-4">
               <Select value={selectedYear} onValueChange={setSelectedYear}>
                 <SelectTrigger className="w-[100px]">
