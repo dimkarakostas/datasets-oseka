@@ -25,6 +25,7 @@ export default function RootLayout({
           {children}
           <FooterNav />
         </ThemeProvider>
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ead120e6fd414376a105b6d230760263"}'></script>
       </body>
     </html>
   )
